@@ -1,0 +1,74 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+@media (min-width: 600px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-row-gap: 30px;
+    margin: 0px;
+    padding: 30px;
+    background-color: ALICEblue;
+  }
+}
+
+.headingphoto {
+  grid-column: 2/-2;
+}
+.title {
+  grid-column-start: span 4;
+  text-align: center;
+  padding-top: 0;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: black;
+}
+.item1 {
+  grid-column-end: span 3;
+  font-size: 15px;
+  font-family: sans-serif;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: floralwhite;
+  background: black;
+}
+.item2 {
+  grid-column: 2/-2;
+  grid-row: 4;
+  text-align: right;
+  font-size: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: sans-serif;
+  font-style: oblique;
+  color: black;
+  margin: 0px;
+}
+.frodo2 {
+  grid-row: 4;
+  grid-column: 4;
+  align-content: center;
+  width: 100%;
+}
+
+.item3 {
+  grid-row: 7;
+  grid-column: 2/-2;
+  text-align: right;
+  font-size: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: sans-serif;
+  font-style: oblique;
+  color: black;
+  margin: 0px;
+}
+
+.frodo {
+  grid-row: 7;
+  grid-column: 4;
+  align-content: center;
+  display: block;
+  width: 100%;
+}
